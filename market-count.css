@@ -1,0 +1,90 @@
+.count{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    border: #23262F solid 1px;
+    border-radius: 10px;
+    padding: 16px 32px 16px 32px;
+    margin-top: 60px;
+   
+    background-color: #18191D;;
+}
+.centercon{
+    display: flex;
+    gap: 10px;
+    color: white;
+   height: 278px;
+    border-top:#23262F 1px solid;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flexone,.flextwo{
+    display: flex;
+    gap: 10px;
+}
+
+.centercon .cn{
+    padding: 32px 86px 32px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.centercon .cn h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cn .spn{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.centercon .two {
+    background-color:#2F3241 ;
+    border-radius: 12px;
+}
+.num{
+    display: flex;
+    gap: 8px;
+}
+.num span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.count li:first-child{
+    background-color: #3772FF;
+    border-radius: 24px;
+    padding: 8px 20px 8px 20px;
+  
+}
+.count ul li{
+    margin-top: 16px;
+}
+.count ul .li{
+    color: #B1B5C3;
+}
+
+
+
+.count ul{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding-bottom: 16px;
+    
+}
+.cn .num span:last-child{
+    background-color: #D33535;
+    padding: 2px 8px 2px 8px;
+   border-radius: 24px;
+}
+.two .num span:last-child{
+    background-color: #58BD7D;
+    padding: 2px 8px 2px 8px;
+border-radius: 24px;
+}

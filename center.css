@@ -1,0 +1,36 @@
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 82px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.divtext{
+    width: 620px;
+    height: 320px;
+    color: white;
+}
+.divtext h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+.divtext p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.divtext button{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3772FF;
+    padding: 16px 29px 16px 29px;
+    border-radius: 90px;
+    color: white;
+    border: none;
+    margin-top: 48px;
+    transition: all 0.5s;
+}
+.divtext button:hover{
+    background-color: blue;
+}

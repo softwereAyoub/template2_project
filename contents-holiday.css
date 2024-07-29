@@ -1,0 +1,124 @@
+.holiday .div1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: white;
+    padding: 24px 24px 74px 24px;
+    background-color: #191D23;
+    border-radius: 40px;
+    width: 400px;
+    margin-top: 131px;
+}
+.holiday{
+    display: flex;
+    gap: 46px;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 229px;
+  justify-content: center;
+    background-color: #141416;
+    
+}
+
+.ligne1{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    position: relative;
+
+}
+.ligne1 .tit{
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 30px;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 16px;
+}
+.imgs h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+.imgs .texte{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.holiday .tit span:last-child{
+background:linear-gradient(#26AB5F,#26AB5F);
+border-radius: 70px;
+padding: 8px 12px 8px 12px;
+}
+.ligne2,.ligne3{
+    padding-top: 24px;
+}
+.ligne3{
+    padding-bottom: 0;
+}
+.lg{
+    color: white;
+    font-size: 11px;
+}
+.lg1{
+    display: flex;
+ justify-content: space-between;
+    color: white;
+    margin-bottom: 17px;
+    height: 34px;
+}
+.lg span:not(.t1){
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    width: 56px;
+    text-align: center;
+    background-color: #131313;
+    border-radius: 8px;
+    padding: 12px 4px;
+}
+.lg span:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.divone{
+    display: flex;
+    gap: 55px;
+    font-size: 12px;
+}
+.divone span:last-child{
+    color: #5E6E78;
+}
+.divtwo{
+   position: relative;
+   display: flex;
+}
+.divtwo span:last-child{
+    position: absolute;
+    right: 5px;
+    width: 58px;
+    height: 23px;
+    padding: 5px 10px;
+    border-radius: 69px;
+    font-size: 10px;
+    background-color: #EE6E6E;
+    
+}
+.divtwo span:first-child{
+    position: absolute;
+   height: 34px;
+    right: 120px;
+    margin-top: 6px;
+    font-size: 12px;
+}
+.div3{
+    background-color: #191D23;
+    padding: 37px 21px 0 32px;
+    border-radius: 40px;
+}
+.holiday .div2,.holiday .div3{
+    margin-top: 131px;
+}

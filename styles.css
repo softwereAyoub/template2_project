@@ -1,0 +1,211 @@
+@import "header.css";
+@import "center.css";
+@import "market-count.css";
+@import "contents-down.css";
+@import "contents-down2.css";
+@import "contents-high.css";
+@import "contents-holiday.css";
+@import "contents-lastone.css";
+@import "contents-price.css";
+@import "contents-update.css";
+@import "footer.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+html{
+    scroll-behavior: smooth;
+min-height: 100vh;
+}
+#butt{
+    width: 50px;
+    height: 50px;
+display: none;
+    background-color: rgb(58, 58, 192);
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    cursor: pointer;
+
+}
+.cont{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: cont;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes cont{
+    from{
+        background-color: blue; 
+    }
+    to{
+        margin-top: 30px;
+        background-color: #26AB5F;
+    }
+}
+
+html,body{
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: #18191D;
+   display: flex; 
+    flex-direction: column;
+overflow-x: hidden;
+}
+.market{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: auto;
+    
+}
+.contents{
+    background-color: #141416;
+    width: 100%;
+    margin-top: 147px;
+}
+@media screen and (max-width:1224px){
+    .center h1{
+        font-size: 45px;
+    }
+    .center img{
+        width: 350px;
+        height: 350px;
+     }
+     .center{
+        padding: 15px;
+        margin-top: 50px;
+    }
+   .flexone,.flextwo{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .centercon{
+        height: auto;
+    }
+    table td:first-child span{
+        display: none;
+    }
+    .holiday,.down,.down2{
+        padding: 20px;
+    }
+    .imgdown{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:1024px){
+  
+    .center img{
+       width: 150px;
+       height: 150px;
+    }
+    .cont{
+        display: none;
+    }
+    .center h1{
+        font-size: 25px;
+    }
+    header{
+        height: 130px;
+    }
+    nav{
+flex-direction: column;
+align-items: center;
+gap: 10px;
+    }
+    .centercon{
+        flex-direction: column;
+        gap: 100px;
+        height: auto;
+    }
+    .market{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .market table{
+        transform: scale(0.95);
+        width: 100%;
+    }
+    table td:first-child img,table td:first-child span{
+        display: none;
+    }
+    .update{
+        width: 100%;
+        padding: 10px;
+    }
+    .update h2{
+        text-align: center;
+    }
+    .holiday,.down,.q1,.q2,.price .divs,.down2{
+        flex-direction: column;
+    }
+    .down,.down2{
+        padding: 25px;
+    }
+ .imgdown{
+    width: 90%;
+}
+.lastone h3{
+font-size: 20px;
+}
+
+.lastone button{
+    height: 40px;
+    padding:  20px;
+    display: flex;
+    align-items: center;
+ border-radius: 30px;
+}
+.fott,.price{
+    padding: 10px;
+}
+.search{
+    padding-right: 8px;
+}
+.search input{
+    width: 200px;
+}
+}
+@media screen and (max-width:640px) {
+    header{
+        padding: 10px;
+    }
+    header ul{
+        padding: 0px 10px;
+        gap: 15px;
+    }
+    nav{
+        gap: 15px;
+    }
+    .search {
+flex-direction: column;
+gap: 20px;
+    }
+    .holiday .div1{
+        transform: scale(0.9);
+    }
+    .update{
+        padding: 5px;
+    }
+
+
+
+
+}
+
+

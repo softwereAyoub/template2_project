@@ -1,0 +1,30 @@
+.lastone{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    background-color: #18191D;
+    padding: 10px;
+    padding-top: 34px;
+    padding-bottom: 30px;
+}
+.lastone button{
+    padding: 16px 54px;
+    border-radius: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.5s;
+}
+.lastone button:hover{
+    background-color: rgb(177, 170, 170);
+    color: white;
+}
+.lastone p{
+    color: #B1B5C3;
+    margin-top: 8px;
+}
+.lastone h3{
+    font-size: 28px;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+.content h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.content0 p{
+   color: #B1B5C3;
+   margin-top: 16px;
+}
+.down .title1,.down .title2{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.content2 p{
+    padding-left: 32px;
+    color: #B1B5C3;
+}
+.icons{
+    display: flex;
+    gap: 16px;
+}

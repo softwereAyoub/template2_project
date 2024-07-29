@@ -1,0 +1,154 @@
+.p-20{
+    padding: 5px 5px 5px 20px;
+}
+.p2-20{
+    padding-top: 25px;
+}
+.p-10{
+    padding: 10px;
+}
+.pt-0{
+    padding-top: 0;
+}
+.text-c{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+
+.span{
+    width: 40px;
+    height: 3px;
+   margin: 0 0 35px 5px ;
+    background-color: black;
+    display: inline-block;
+}
+.span2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.first-a{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(239, 239, 239);
+}
+.spans{
+    padding-top: 12px;
+    align-items: center;
+    align-self: center;
+}
+
+.divs{
+    width: 380px;
+    height: 350px;
+    display: flex;
+    padding: 25px 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(205, 196, 196);
+}
+.divsboug{
+    width: 380px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 30px;
+    background-color: rgb(205, 196, 196);
+}
+.titlee{
+    padding: 25px 10px; 
+}
+.pourc-spn{
+    width: 80%;
+}
+
+.o-orange{
+    background-color: rgb(252, 228, 220);
+}
+
+.o-blue{
+    background-color: rgb(216, 216, 245);
+}
+.o-green{
+    background-color: rgb(182, 248, 182);
+}
+.spane{
+    color: grey;
+}
+
+.pourspan{
+    color: white;
+    background-color: green;
+    right: 23%;
+    position: absolute;
+    bottom: 9px;
+    padding: 3px 5px;
+    border-radius: 7px;
+}
+.pourspan2{
+    position: absolute;
+    right:53%;
+    background-color: orangered;
+}
+.pourspan3{
+    position: absolute;
+    right:34% ;
+    background-color: blue;
+    bottom: 9px;
+}
+.boxshadow{
+    box-shadow: 0px 0px 8px -4px  grey inset;
+ 
+}
+.betw-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-flex{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.button{
+    background-color: rgb(68, 68, 255);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+}
+.around-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap: 8px;
+}
+.center2-flex{
+display: flex;
+flex-direction: column;
+gap: 8px;
+position: relative;
+}
+.img-150{
+    width: 150px;
+}
+.rad{
+    border-radius: 50%;
+}
+.img-30{
+    width: 60px;
+    height: 60px;
+}

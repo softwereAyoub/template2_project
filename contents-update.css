@@ -1,0 +1,90 @@
+input{
+    border-radius: 100px;
+    background-color: #222630;
+    height: 40px;
+    width: 280px;
+    padding-left: 30px;
+    background-image: url('akar-icons_search.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    margin-right: 8px;
+    border: 1px solid linear-gradient(#80808000,#476B9E);
+    
+}
+.update{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 291px;
+    padding-bottom: 192px;
+}
+.update h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+.search ul li:first-child{
+    background-color: #3772FF;
+    border-radius: 24px;
+    padding: 8px 24px 8px 24px;
+}
+.search ul{
+    display: flex;
+    align-items: center;
+}
+.update table{
+  width: 100%;
+  border: #FFF solid 2px;
+  text-align: center;
+  border: none;
+  border-collapse: collapse;
+ 
+}
+table tr{
+    height: 88px;
+}
+.tr0 th{
+    border: none;
+    border-bottom: #23262F solid 2px;
+}
+.tr1 td,.tr2 td,.tr3 td{
+    border: none;
+}
+
+.tr2 td:first-child{
+    border-radius: 12px 0 0 12px;
+}
+.tr2 td:last-child{
+    border-radius: 0 12px 12px 0;
+}
+.tr2{
+    background: linear-gradient(#80808000,#476B9E);
+    
+}
+.tr4 td{
+    border:#23262F solid 1px;
+    border-left: none;
+    border-right: none;
+}
+.update table tr{
+    position: relative;
+}
+.update table tr td:first-child{
+    gap: 15px;
+}
+.update table tr td:first-child img{
+position: absolute;
+left: 20px;
+}
+.update table tr td:first-child span{
+    position: absolute;
+    left: 52px;
+    }

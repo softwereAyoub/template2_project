@@ -1,0 +1,52 @@
+.high{
+    background-color: #141416;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 100px;
+    padding-bottom: 131px;
+
+}
+.high h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.q1,.q2{
+    display:flex;
+   justify-content: center;
+gap: 30px;
+
+    
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 90%;
+}
+.comments p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+.comments h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.comments .div1{
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.div1 .tit{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

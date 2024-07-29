@@ -1,0 +1,32 @@
+footer{
+    position: relative;
+    bottom: 0;
+ 
+ }
+ .foot0{
+     color: white;
+     display: flex;
+     width: 100%;
+        flex-direction: column;
+     gap: 6px;
+     padding: 118px 0 147px 150px;
+        background-color: #141416;
+ }
+ footer img:first-of-type,.foot0 footer span{
+ 
+   width:100px
+ }
+ footer img:last-of-type{
+ width: 141px;
+ }
+ .fott{
+     display: flex;
+     justify-content: space-around;
+     color: #B1B5C3;
+     background-color: #222630;
+     align-items: center;
+     height:60px ;
+     position: absolute;
+     bottom: 0;
+    width: 100%;
+ }

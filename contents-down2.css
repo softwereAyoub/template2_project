@@ -1,0 +1,38 @@
+.down2{
+    display: flex;
+    margin-top: 191px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 100px;
+    background-color: #141416;
+}
+.down2 button{
+    background-color: #3772FF;
+    padding: 16px 41px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 90px;
+    transition: all 0.5s;
+}
+.down2 button:hover{
+    background-color: blue;
+}
+.down2 .content,.down2 .content2{
+    gap: 48px;
+}.down2 .content0{
+    padding-bottom: 22px;
+}
+.down2 .title1,.down2 .title2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.tex{
+    display: flex;
+    font-size: 24px;
+    gap: 12px;
+    font-weight: bold;
+}
